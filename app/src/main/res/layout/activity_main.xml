@@ -9,9 +9,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#87CEEB"
-        android:text="Court Counter"
+        android:text="Team death match"
         android:textAlignment="center"
-        android:textSize="30dp" />
+        android:textSize="35dp" />
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -34,11 +34,19 @@
             android:text="Team B"
             android:textSize="20dp" />
 
+
+        <TextView
+            android:id="@+id/pointsA"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/team_a"
+            android:textAlignment="center"/>
+
         <TextView
             android:id="@+id/score_team_a"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:layout_below="@id/team_a"
+            android:layout_below="@id/pointsA"
             android:text="0"
             android:textAlignment="center"
             android:textSize="20dp" />
