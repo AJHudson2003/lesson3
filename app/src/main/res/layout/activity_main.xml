@@ -21,7 +21,7 @@
             android:id="@+id/team_a"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:text="Team A"
+            android:text="Team 1 points"
             android:textAlignment="center"
             android:textSize="20dp" />
 
@@ -31,22 +31,14 @@
             android:layout_height="wrap_content"
             android:layout_toRightOf="@id/team_a"
             android:gravity="center"
-            android:text="Team B"
+            android:text="Team 2 points"
             android:textSize="20dp" />
-
-
-        <TextView
-            android:id="@+id/pointsA"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/team_a"
-            android:textAlignment="center"/>
 
         <TextView
             android:id="@+id/score_team_a"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:layout_below="@id/pointsA"
+            android:layout_below="@id/team_a"
             android:text="0"
             android:textAlignment="center"
             android:textSize="20dp" />
@@ -70,7 +62,7 @@
             android:background="#87CEEB"
             android:onClick="point_3_a"
             android:gravity="center"
-            android:text="+3 Points" />
+            android:text="Head shot kills" />
 
         <Button
             android:id="@+id/button_2_a"
@@ -81,7 +73,7 @@
             android:layout_margin="20dp"
             android:background="#87CEEB"
             android:gravity="center"
-            android:text="+2 Points" />
+            android:text="lethal kills" />
 
         <Button
             android:id="@+id/button_1_a"
@@ -92,7 +84,20 @@
             android:background="#87CEEB"
             android:gravity="center"
             android:onClick="point_1_a"
-            android:text="+1 Points" />
+            android:text="normal kill" />
+
+        <Button
+            android:id="@+id/button_4_a"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_1_a"
+            android:layout_margin="20dp"
+            android:background="#87CEEB"
+            android:gravity="center"
+            android:onClick="point_4_a"
+            android:text="team kill" />
+
+
 
         <Button
             android:id="@+id/button_3_b"
@@ -104,7 +109,7 @@
             android:background="#87CEEB"
             android:gravity="center"
             android:onClick="point_3_b"
-            android:text="+3 Points" />
+            android:text="Head shot kills" />
 
         <Button
             android:id="@+id/button_2_b"
@@ -116,7 +121,7 @@
             android:background="#87CEEB"
             android:onClick="point_2_b"
             android:gravity="center"
-            android:text="+2 Points" />
+            android:text="lethal kills" />
 
         <Button
             android:id="@+id/button_1_b"
@@ -128,7 +133,21 @@
             android:background="#87CEEB"
             android:gravity="center"
             android:onClick="point_1_b"
-            android:text="+1 Points" />
+            android:text="normal kill" />
+
+        <Button
+            android:id="@+id/button_5_a"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_1_b"
+            android:layout_margin="20dp"
+            android:background="#87CEEB"
+            android:gravity="center"
+            android:onClick="point_4_b"
+            android:text="team kill" />
+
+
+
     </RelativeLayout>
     <Button
         android:layout_width="wrap_content"

@@ -45,6 +45,10 @@ public class MainActivity extends AppCompatActivity {
         display_b(score_b);
     }
 
+    public void point_4_b(View view){
+        
+    }
+
     public void reset(View view){
         score_a= 0;
         score_b= 0;
