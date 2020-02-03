@@ -20,12 +20,12 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void point_3_a(View view){
-        score_a= score_a + 3;
+        score_a= score_a + 2;
         display_a(score_a);
     }
 
     public void point_2_a(View view){
-        score_a= score_a + 2;
+        score_a= (int) (score_a + 1.5);
         display_a(score_a);
     }
     public void point_1_a(View view){
@@ -38,11 +38,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void point_3_b(View view){
-        score_b= score_b + 3;
+        score_b= score_b + 2;
         display_b(score_b);
     }
     public void point_2_b(View view){
-        score_b= score_b + 2;
+        score_b= (int) (score_b + 1.5);
         display_b(score_b);
     }
     public void point_1_b(View view){
