@@ -28,14 +28,17 @@ public class MainActivity extends AppCompatActivity {
         score_a= (int) (score_a + 1.5);
         display_a(score_a);
     }
+
     public void point_1_a(View view){
         score_a= score_a + 1;
         display_a(score_a);
     }
+
     public void point_4_a(View view){
         score_a= score_a - 1;
         display_a(score_a);
     }
+
     public void point_5_a(View view){
         score_a= score_a + 4;
         display_a(score_a);
@@ -45,10 +48,12 @@ public class MainActivity extends AppCompatActivity {
         score_b= score_b + 2;
         display_b(score_b);
     }
+
     public void point_2_b(View view){
         score_b= (int) (score_b + 1.5);
         display_b(score_b);
     }
+
     public void point_1_b(View view){
         score_b= score_b + 1;
         display_b(score_b);
@@ -58,10 +63,12 @@ public class MainActivity extends AppCompatActivity {
         score_b= score_b - 1;
         display_b(score_b);
     }
+
     public void point_5_b(View view){
         score_b= score_b + 4;
         display_b(score_b);
     }
+
     public void reset(View view){
         score_a= 0;
         score_b= 0;
@@ -74,6 +81,7 @@ public class MainActivity extends AppCompatActivity {
         quantityTextView_a.setText("" + number_a);
 
     }
+
     private void display_b(int number_b){
         TextView quantityTextView_b= findViewById(R.id.score_team_b);
         quantityTextView_b.setText("" + number_b);
