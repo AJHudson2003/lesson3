@@ -167,7 +167,7 @@
             android:id="@+id/button_6_b"
             android:layout_width="170dp"
             android:layout_height="wrap_content"
-            android:layout_below="@id/button_5_a"
+            android:layout_below="@id/button_5_b"
             android:layout_margin="10dp"
             android:layout_toRightOf="@+id/button_5_a"
             android:background="#F44336"
